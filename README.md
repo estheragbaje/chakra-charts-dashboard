@@ -12,11 +12,9 @@ A website analytics dashboard built using [Chakra UI](https://chakra-ui.com/) an
 - 🍩 Donut Chart for Browser Usage
 - 📉 Sparklines for Active Users & Unique Views
 - 🪄 Bar List for Top Sources & Page Views
-- 🧠 Clean code with reusable components and dummy data
-
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - **React** (Vite or Create React App)
 - **Chakra UI**
@@ -26,7 +24,7 @@ A website analytics dashboard built using [Chakra UI](https://chakra-ui.com/) an
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 

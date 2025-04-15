@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# 📊 Website Analytics Dashboard with Chakra UI Charts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A website analytics dashboard built using [Chakra UI](https://chakra-ui.com/) and [Chakra UI Charts](https://chakra-ui.com/charts). This project demonstrates how to build modern data visualizations in a React app with minimal custom styling, leveraging Chakra UI’s design system and charting components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡️ Responsive Grid layout with Chakra UI
+- 📈 Area Chart for Page Visits
+- 📊 Bar Chart for Bounce Rate
+- 🍩 Donut Chart for Browser Usage
+- 📉 Sparklines for Active Users & Unique Views
+- 🪄 Bar List for Top Sources & Page Views
+- 🧠 Clean code with reusable components and dummy data
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🧰 Tech Stack
+
+- **React** (Vite or Create React App)
+- **Chakra UI**
+- **@chakra-ui/charts** (based on Recharts)
+- **Recharts** for chart rendering
+- **TypeScript**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/estheragbaje/chakra-charts-dashboard.git
+cd chakra-charts-dashboard
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 2. Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+`npm install`
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# or
+
+`pnpm install`
+
+### 3. Run the dev server
+
+`npm run dev`
+
+# or
+
+`pnpm run dev`
